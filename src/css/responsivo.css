@@ -1,0 +1,85 @@
+@media (max-width: 600px) {
+    body {
+        max-height: 650px;
+        
+    }
+    
+    .container__principal {
+        display: flex;
+        flex-direction: column;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .container_descricao {
+        height: 300px;
+        gap: 0;
+        border-top-left-radius: 0;
+        border-top-right-radius:0;
+        
+    }
+
+    .text_resultado {
+        font-size: 15px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+
+    .container_pontuacao {
+        width: 120px;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .pontuacao-1 {
+        font-size: 3.0rem;
+    }
+
+    .pontuacao-2 {
+        font-size: 13.5px;
+    }
+
+    .text_great {
+        font-size: 20px;
+        margin-top: 19px;
+    }
+
+    .container_informacao {
+        width: 240px;
+        margin-top: 8px;
+    }
+
+    .informacao {
+        font-size: 13px;
+    }
+
+    .container_sumario {
+        display: grid;
+    }
+
+    .text_summary {
+        margin: 15px 0 -5px 2px;
+        font-size: 14px;
+    }
+
+    .container_conteudo_sumario {
+        width: 250px;
+    }
+
+    .botao {
+        width: 250px;
+        margin-top: 0;
+        margin-bottom: 45px;
+        
+    }
+}
+
+@media (max-width: 384px) {
+    body {
+        max-height: 620px;
+    }
+}
