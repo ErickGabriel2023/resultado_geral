@@ -64,6 +64,8 @@ body {
 
 .text_great {
     color: hsl(0, 0%, 100%);
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .container_informacao {
@@ -91,6 +93,8 @@ body {
 .text_summary { 
     margin-left: -125px;
     margin-top: 25px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .container_conteudo_sumario {
